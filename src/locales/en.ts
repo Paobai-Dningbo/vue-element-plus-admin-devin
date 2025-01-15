@@ -135,6 +135,7 @@ export default {
     menu2: 'Menu2',
     dashboard: 'Dashboard',
     analysis: 'Analysis',
+    bigScreen: 'Big Screen',
     workplace: 'Workplace',
     guide: 'Guide',
     component: 'Component',

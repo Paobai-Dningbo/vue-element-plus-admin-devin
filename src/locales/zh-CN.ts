@@ -133,6 +133,7 @@ export default {
     menu2: '菜单2',
     dashboard: '首页',
     analysis: '分析页',
+    bigScreen: '大屏展示',
     workplace: '工作台',
     guide: '引导',
     component: '组件',

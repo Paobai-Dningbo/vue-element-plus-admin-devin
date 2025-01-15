@@ -109,6 +109,15 @@ export const asyncRouterMap: AppRouteRecordRaw[] = [
           title: t('router.workplace'),
           noCache: true
         }
+      },
+      {
+        path: 'big-screen',
+        component: () => import('@/views/Dashboard/BigScreen.vue'),
+        name: 'BigScreen',
+        meta: {
+          title: t('router.bigScreen'),
+          noCache: true
+        }
       }
     ]
   },
