@@ -116,6 +116,7 @@ export const asyncRouterMap: AppRouteRecordRaw[] = [
         name: 'BigScreen',
         meta: {
           title: t('router.bigScreen'),
+          icon: 'vi-ant-design:fund-projection-screen-outlined',
           noCache: true
         }
       }
