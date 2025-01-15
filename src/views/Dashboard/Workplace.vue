@@ -4,6 +4,7 @@ import { ElRow, ElCol, ElSkeleton, ElCard, ElDivider, ElLink } from 'element-plu
 import { useI18n } from '@/hooks/web/useI18n'
 import { ref, reactive } from 'vue'
 import { CountTo } from '@/components/CountTo'
+import Calculator from '@/components/Calculator/Calculator.vue'
 import { formatTime } from '@/utils'
 import { Echart } from '@/components/Echart'
 import { EChartsOption } from 'echarts'
@@ -260,6 +261,10 @@ const { t } = useI18n()
             </ElCol>
           </ElRow>
         </ElSkeleton>
+      </ElCard>
+
+      <ElCard shadow="never" class="mt-20px">
+        <Calculator />
       </ElCard>
 
       <ElCard shadow="never" class="mt-20px">
